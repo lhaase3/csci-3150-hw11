@@ -3,10 +3,23 @@
 
 /* form styling */
 
+body {
+	margin: 0;
+	padding: 2rem 0;
+	background: #f3f4f6;
+	color: #1f2937;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 
 #wrapper {
-	width: 60%;
-	margin-left:4%;
+	width: min(760px, 92%);
+	margin: 0 auto;
+	background: #fff;
+	border: 1px solid #d1d5db;
+	border-radius: 10px;
+	padding: 1.5rem 1.5rem 1.75rem;
+	box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
 }
 
 div#formcol1 {
@@ -14,31 +27,99 @@ div#formcol1 {
 	width: 100%;
 }
 
+h1 {
+	margin: 0 0 0.5rem;
+	font-size: 2.2rem;
+	color: #111827;
+}
+
+#proposal2020 p {
+	margin: 0.5rem 0 1rem;
+}
+
+fieldset {
+	border: 1px solid #c7cbd1;
+	border-radius: 8px;
+	padding: 1rem 1rem 0.8rem;
+	margin: 0 0 1rem;
+	background: #fafafa;
+}
+
+legend {
+	padding: 0 0.4rem;
+	font-size: 1.05rem;
+	font-weight: 600;
+	color: #111827;
+}
+
 label {
 	display: inline-block;
-	width: 6.3em;
+	width: 7.2em;
 	text-align: right;
+	margin-right: 0.5rem;
+	font-weight: 600;
 }
 
 #formcol1 li {
 	list-style: none;
-	margin-bottom: 0.5em;
+	margin-bottom: 0.7em;
 }
 
 #formcol1 ul {
 	padding-left: 0;
+	margin: 0;
+}
+
+input[type="text"] {
+	width: min(330px, 90%);
+	padding: 0.35rem 0.45rem;
+	border: 1px solid #9ca3af;
+	border-radius: 4px;
+	font-size: 1rem;
+}
+
+#multchoice p {
+	display: flex;
+	align-items: center;
+	gap: 0.55rem;
+	margin: 0.4rem 0 0.7rem;
+}
+
+input[type="radio"] {
+	width: 1rem;
+	height: 1rem;
 }
 
 input:focus, select:focus {
 	color: #000;
-	background-color: #BB3D2F;
+	background-color: #ffe3dc;
+	outline: 2px solid #bb3d2f;
+	outline-offset: 1px;
 }
 
 #formcol1 input.reqfield {
 	background: #FF9;
 }
 
+.submit-button {
+	margin-top: 0.8rem;
+}
+
+input[type="submit"] {
+	padding: 0.5rem 0.9rem;
+	border: 1px solid #1f2937;
+	border-radius: 6px;
+	background: #111827;
+	color: #fff;
+	font-size: 1rem;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background: #2a3648;
+}
+
 
 
 /* end of form css */
-	
+
