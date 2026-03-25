@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+
+/* form styling */
+
+
+#wrapper {
+	width: 60%;
+	margin-left:4%;
+}
+
+div#formcol1 {
+	float:left;	
+	width: 100%;
+}
+
+label {
+	display: inline-block;
+	width: 6.3em;
+	text-align: right;
+}
+
+#formcol1 li {
+	list-style: none;
+	margin-bottom: 0.5em;
+}
+
+#formcol1 ul {
+	padding-left: 0;
+}
+
+input:focus, select:focus {
+	color: #FFF;
+	background-color: #BB3D2F;
+}
+
+#formcol1 input.reqfield {
+	background: #FF9;
+}
+
+
+
+/* end of form css */
+	
